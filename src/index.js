@@ -15,3 +15,16 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+var cartelCookie = document.querySelector('#cookie')
+var aceptar = document.querySelector('#cookie a')
+var mostrarMensaje = false
+
+if (mostrarMensaje) {
+    cartelCookie.style.display = 'none'
+}
+
+aceptar.addEventListener('click', function () {
+    cartelCookie.style.display = 'none'
+})
+
