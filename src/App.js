@@ -1,6 +1,6 @@
 
-
-
+import logo from './logo.png'
+import hamburguesa from './hamburguesa.svg'
 
 
 function App(){
@@ -11,14 +11,18 @@ function App(){
         <a href="#footer">create an account</a>
     </div>
     <div id="second-nav">
-        <img className="logo" src="img/logo.png" alt="logo Google" />
+        <img src= {logo} className="logo" alt="logo" />
 
         <div className="second-nav-menu">
             <div className="second-nav-hamburger">
-                <img src="img/hamburguesa.svg" alt=""/>
+                <img src={hamburguesa} alt=""/>
             </div>
             
             <div className="second-nav-links">
+                <a href="#Home">Home</a>
+                <a href="#Productos">Productos</a>
+                <a href="#Nosotros">Nosotros</a>
+                <a href="#Contacto">Contacto</a>
             </div>
     </div>
     </div>
