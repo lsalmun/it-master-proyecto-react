@@ -54,25 +54,25 @@ margin: 12px;
   padding: 12px 24px;
 }
 
-#items { 
+.items { 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 48px;
       }
 
-#items .item-product {
+.items .item-product {
           width: 24%;
           text-align: center;
           border: 1px solid #999;
           margin: 12px auto;
       }
 
-#items .item-product img {
+.items .item-product img {
           width: 100%;
       }
       
-#items .item-product p {
+.items .item-product p {
           margin: 12px;
           line-height: 32px;
       }

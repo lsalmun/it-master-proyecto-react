@@ -1,11 +1,12 @@
 
 import logo from './logo.png'
 import hamburguesa from './hamburguesa.svg'
+import ItemsList from './ItemsList'
 
 
 function App(){
   return (
-<div>
+<>
     <div id="first-nav">
         <a href="#footer">Sign in</a> or
         <a href="#footer">create an account</a>
@@ -32,66 +33,7 @@ function App(){
     <button>Lern more</button>
     </div>
 
-    <div id="items">
-        <div className="item-product">
-        <img src="https://placeimg.com/400/400/arch" alt="logo Google" />
-        <p><b>Product category one</b> product category one product category one product category one product category one</p>
-        </div>
-
-        <div className="item-product">
-        <img src="https://placeimg.com/400/400/arch" alt="logo Google" />
-        <p><b>Product category one</b> product category one product category one product category one product category one</p>
-        </div>
-
-        <div className="item-product">
-        <img src="https://placeimg.com/400/400/arch" alt="logo Google" />
-        <p><b>Product category one</b> product category one product category one product category one product category one</p>
-        </div> 
-
-        <div className="item-product">
-        <img src="https://placeimg.com/400/400/arch" alt="logo Google" />
-        <p><b>Product category one</b> product category one product category one product category one product category one</p>
-        </div>
-
-        <div className="item-product">
-        <img src="https://placeimg.com/400/400/arch" alt="logo Google" />
-        <p><b>Product category one</b> product category one product category one product category one product category one</p>
-        </div>
-    
-        <div className="item-product">
-        <img src="https://placeimg.com/400/400/arch" alt="logo Google" />
-        <p><b>Product category one</b> product category one product category one product category one product category one</p>
-        </div>
-    
-        <div className="item-product">
-         <img src="https://placeimg.com/400/400/arch" alt="logo Google" />
-        <p><b>Product category one</b> product category one product category one product category one product category one</p>
-        </div>
-    
-        <div className="item-product">
-        <img src="https://placeimg.com/400/400/arch" alt="logo Google" />
-        <p><b>Product category one</b> product category one product category one product category one product category one</p>
-        </div>
-        <div className="item-product">
-        <img src="https://placeimg.com/400/400/arch" alt="logo Google" />
-        <p><b>Product category one</b> product category one product category one product category one product category one</p>
-        </div>
-
-        <div className="item-product">
-        <img src="https://placeimg.com/400/400/arch" alt="logo Google" />
-        <p><b>Product category one</b> product category one product category one product category one product category one</p>
-        </div>
-
-        <div className="item-product">
-        <img src="https://placeimg.com/400/400/arch" alt="logo Google" />
-        <p><b>Product category one</b> product category one product category one product category one product category one</p>
-        </div>
-
-        <div className="item-product">
-        <img src="https://placeimg.com/400/400/arch" alt="logo Google" />
-        <p><b>Product category one</b> product category one product category one product category one product category one</p>
-        </div>
-        </div>
+    <ItemsList/>
 
     <div id="cookie">
         este sitio utiliza cookies
@@ -108,7 +50,7 @@ function App(){
         </form>
     </div>
 
-    </div>
+    </>
   )
 }
 export default App
