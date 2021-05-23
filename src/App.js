@@ -2,6 +2,7 @@
 import logo from './logo.png'
 import hamburguesa from './hamburguesa.svg'
 import ItemsList from './ItemsList'
+import MH from './mH'
 
 
 function App(){
@@ -16,17 +17,18 @@ function App(){
 
         <div className="second-nav-menu">
             <div className="second-nav-hamburger">
-                <img src={hamburguesa} alt=""/>
+                <img src= {hamburguesa} alt=""/>
             </div>
+          
+            <MH/>
             
-            <div className="second-nav-links">
-                <a href="#Home">Home</a>
-                <a href="#Productos">Productos</a>
-                <a href="#Nosotros">Nosotros</a>
-                <a href="#Contacto">Contacto</a>
-            </div>
+         </div>
+
+          
+
     </div>
-    </div>
+
+    
 
     <div id="banner">
         <h1>Lorem Ipsum</h1>
