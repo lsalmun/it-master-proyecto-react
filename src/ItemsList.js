@@ -13,13 +13,21 @@ function ItemsList () {
     let pages = items.slice(a,page)
     
     let finalPage = page/4
+
+    
     
     function nextPage() {
-       
+        if (page == items.length){
+
+            
+            return;
+        }
+
 
         setPage(page + 4)
         
     }
+
     return (
     <>
       <p className="App-barraPaginador"> Mostrando pagina 1 de {finalPage} </p>
