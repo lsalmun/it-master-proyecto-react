@@ -89,6 +89,13 @@ margin: 12px;
       display: block;
     }
 
+    .App-barraPaginador
+    {
+        font: bold;
+        color: blue;
+        text-align: center;
+    }
+
       #cookie{
 background: black;
 padding: 24px;

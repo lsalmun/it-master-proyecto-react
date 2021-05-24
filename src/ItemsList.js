@@ -12,6 +12,7 @@ function ItemsList () {
     
     let pages = items.slice(a,page)
     
+    let finalPage = page/4
     
     function nextPage() {
        
@@ -21,10 +22,13 @@ function ItemsList () {
     }
     return (
     <>
+      <p className="App-barraPaginador"> Mostrando pagina 1 de {finalPage} </p>
     <div className="items">
+  
         {
             pages.map(function(dato){ 
             return (
+                <>
                 
                 <div className="item-product" key={dato.id}>
      
@@ -32,9 +36,12 @@ function ItemsList () {
                      {dato.title}
                      {dato.id}
                      
-                    </div>)
+                    </div>
+                    </>)
              })}
         </div>     
+
+        <p className="App-barraPaginador"> Mostrando pagina 1 de {finalPage} </p>
 
         <button onClick={() => setPage(page=4)}>
                 Primera pagina
@@ -53,7 +60,7 @@ function ItemsList () {
       )}
 
 
-
+      
 
 
 export default ItemsList
